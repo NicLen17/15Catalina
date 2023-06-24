@@ -1,0 +1,194 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0;
+    font-family: "Stalemate", Sans-serif;
+    font-family: "Style Script", Sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #424242;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #e9a846;
+    border-radius: 10px;
+}
+
+html {
+    text-align: center;
+}
+
+body {
+    font-family: "Style Script", Sans-serif;
+    color: #d4b241 !important;
+    background-image: radial-gradient(
+            circle at 57% 36%,
+            rgba(255, 92, 237, 0.04) 0%,
+            rgba(255, 92, 237, 0.04) 10%,
+            transparent 10%,
+            transparent 100%
+        ),
+        radial-gradient(
+            circle at 22% 61%,
+            rgba(255, 92, 237, 0.04) 0%,
+            rgba(255, 92, 237, 0.04) 36%,
+            transparent 36%,
+            transparent 100%
+        ),
+        radial-gradient(
+            circle at 68% 97%,
+            rgba(255, 92, 237, 0.04) 0%,
+            rgba(255, 92, 237, 0.04) 41%,
+            transparent 41%,
+            transparent 100%
+        ),
+        radial-gradient(
+            circle at 57% 89%,
+            rgba(255, 92, 237, 0.04) 0%,
+            rgba(255, 92, 237, 0.04) 30%,
+            transparent 30%,
+            transparent 100%
+        ),
+        radial-gradient(
+            circle at 39% 80%,
+            rgba(255, 92, 237, 0.04) 0%,
+            rgba(255, 92, 237, 0.04) 22%,
+            transparent 22%,
+            transparent 100%
+        ),
+        radial-gradient(
+            circle at 88% 71%,
+            rgba(255, 92, 237, 0.04) 0%,
+            rgba(255, 92, 237, 0.04) 30%,
+            transparent 30%,
+            transparent 100%
+        ),
+        linear-gradient(0deg, rgb(255, 255, 255), rgb(255, 255, 255));
+}
+
+.Botones {
+    width: 200px;
+    border-radius: 50px;
+    border: 2px solid #cc8720;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 20px;
+    background-color: white;
+    box-shadow: #d4b241 4px 4px 10px;
+    color: gray;
+    transition: 0.3s;
+    margin: 5px;
+}
+
+.Botones:hover {
+    transform: scale(1.1);
+    background-color: #d4b241;
+    color: white;
+}
+
+.Inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.Titulo_inicio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.Titulo_inicio h1{
+    font-size: 180px;
+    font-family: "Stalemate", Sans-serif;
+    background: linear-gradient(#cc8720, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.Subtitulo_inicio h2 {
+    font-family: "Stalemate", Sans-serif;
+    background: linear-gradient(rgba(255, 208, 0, 0.767), #df741d);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-style: italic;
+    font-size: 130px;
+}
+
+.Countdown {
+    margin: 25px 0px 25px 0px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Tiempo {
+    background: linear-gradient(rgb(255, 176, 6), #e681bb);
+    background-clip: text;
+    -webkit-text-stroke-color: transparent;
+    -webkit-text-stroke-width: calc(1em / 16);
+    -webkit-background-clip: text;
+    color: #ffff;
+    font-size: 15vmin;
+    font-weight: 700;
+    padding: calc(calc(1em / 16) / 2);
+    letter-spacing: 10px;
+}
+
+.Titulo_count {
+    font-size: 60px;
+    background: linear-gradient(#e681bb, rgb(228, 188, 8));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-style: italic;
+}
+
+.Salto {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    border: #cc8720 solid 2px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    -webkit-box-shadow: 0px 0px 23px 2px #d4b241;
+    box-shadow: 0px 0px 23px 2px #d4b241;
+    border-radius: 10px;
+}
+
+.Regalo {
+}
+
+.Confirmacion {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Confirmacion h1 {
+}
+
+.Confirmacion span {
+}
+
+.Confirmacion h2 {
+}
+
+.Confirmacion button {
+}
+
+.Confirmacion button:hover {
+}

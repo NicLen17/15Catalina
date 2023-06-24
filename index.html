@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis 15 Catalina</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="icon" href="img/logocata.png">
+    <!-- estilo borrable -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Stalemate&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+</head>
+
+<body onload="playAudio()">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- <audio id="audio" loop>
+        <source src="music/musica.mp3">
+    </audio> -->
+    <section class="Inicio">
+        <div class="Titulo_inicio">
+            <h1 data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">Mis </h1>
+            <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-once="true"data-aos-delay="500">X</h1>
+            <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-once="true"data-aos-delay="500">V</h1>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+        <script>
+            const jsConfetti2 = new JSConfetti()
+            setTimeout(() => {
+                jsConfetti2.addConfetti({
+                    confettiNumber: 150,
+                    confettiColors: [
+                        '#e6b2c6', '#f857b5', '#f79f24', '#ffffff', '#f857b5', '#f79f24',
+                    ],
+                });
+            }, 2500);
+        </script>
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="Subtitulo_inicio">
+            <h2>Catalina</h2>
+        </div>
+    </section>
+
+    <section id="contador" class="Countdown">
+        <h3 data-aos="fade-right" data-aos-once="true" data-aos-duration="1000" class="Titulo_count">Faltan...</h3>
+        <span data-aos="fade-left" data-aos-once="true" data-aos-duration="1000" class="Tiempo" id="clock">00:00:00:00</span>
+    </section>
+
+    <hr class="Salto">
+
+    <section class="Confirmacion">
+        <h1><span>- </span>Confirmacion al evento<span> -</span></h1>
+        <h2>Confirmar hasta el 15 de Julio</h2>
+        <a href="https://api.whatsapp.com/send?phone=5493815142618"><button class="Botones" id="confeti">Confirmar aqui</button></a>
+        <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+        <script>
+            const jsConfetti = new JSConfetti()
+
+            document.getElementById("confeti")
+                .addEventListener("click", (e) => {
+                    jsConfetti.addConfetti({
+                        confettiColors: [
+                            '#ffffc1', '#ffffc1', '#f79f24', '#f79f24', '#f79f24', '#f79f24',
+                        ],
+                    });
+                });
+        </script>
+
+    </section>
+
+    <hr class="Salto">
+
+    <section class="Regalo">
+        <div class="Regalo_mensaje">
+            <h1>El mejor regalo es tu presencia</h1>
+            <h3>Pero si deseas hacerme un presente dejo</h3>
+            <br>
+            <p id="myText" style="font-size: 35px;">catalina.a.urrutia05</p><button onclick="copyContent()" class="Botones">Copiar Alias</button>
+            <p id="myText2" style="font-size: 35px;">0000003100083207753575</p><button onclick="copyContent2()" class="Botones">Copiar CVU</button>
+        </div>
+    </section>
+
+    <hr class="Salto">
+
+    <!-- Scripts -->
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
