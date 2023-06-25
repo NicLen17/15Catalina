@@ -243,7 +243,7 @@ body {
 }
 
 .Regalo_mensaje h3 {
-    background: linear-gradient(#f7ad3d, rgb(207, 204, 8));
+    background: linear-gradient(#f7ad3d, rgb(179, 123, 4));
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -297,11 +297,25 @@ body {
 
 .Cierre {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
+    margin-top: 150px;
 }
+
+.Cierre h1 {
+    font-size: 80px;
+    background: linear-gradient(#cc8720, yellow);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.Cierre img {
+    margin-top: -50px;
+    width: 350px;
+}
+
 
 .Dresscode {
     display: flex;
@@ -324,4 +338,130 @@ body {
     background-clip: text;
     color: transparent;
     font-size: 50px;
+}
+
+@media only screen and (max-width: 375px) {
+    .Titulo_inicio img {
+        object-fit: contain;
+        width: 60px !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .Titulo_inicio h1 {
+        font-size: 100px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .Subtitulo_inicio h2 {
+        font-size: 80px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .Subtitulo_inicio img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .Ubicacion_texto {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .Ubicacion_texto h1 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .Texto_invitacion h1 {
+        font-size: 55px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .Texto_invitacion h2 {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .Countdown {
+        margin-top: -100px;
+        margin-bottom: -100px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .Confirmacion {
+        margin-top: -50px;
+        margin-bottom: -50px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .Confirmacion h1 {
+        font-size: 45px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .Confirmacion h2 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .Regalo_mensaje h1 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .Regalo_mensaje h3 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .Alias_container,
+    .CVU_container {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .Alias_container p,
+    .CVU_container p {
+        margin: 10px 0px 0px 0px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .Dresscode h1 {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .Dresscode h2 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .Cierre h1 {
+        font-size: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+    .Cierre img {
+        width: 200px;
+    }
 }

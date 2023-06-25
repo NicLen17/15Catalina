@@ -45,7 +45,7 @@ if (links.length) {
 }
 
 function playAudio() {
-    document.getElementById("audio").play()
+    document.getElementById("audio").play();
 }
 
 let text = document.getElementById('myText').innerHTML;

@@ -22,14 +22,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
 </head>
 
-<body onload="playAudio()">
+<body onscroll="playAudio()" onload="playAudio()" onclick="playAudio()">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
     </script>
-    <!-- <audio id="audio" loop>
-        <source src="music/musica.mp3">
-    </audio> -->
+
+    <audio data-aos="fade" data-aos-duration="800" style="border: #da9f48 2px solid; border-radius: 25px; margin-top: 25px; box-shadow: #e29f3a 0px 0px 10px;" id="audio" controls loop>
+        <source src="">
+    </audio>
+
     <section class="Inicio">
         <div data-aos="fade-down" data-aos-duration="1000" data-aos-once="true" class="Titulo_inicio">
             <img style="width: 300px; transform: rotate(180deg);"
@@ -40,22 +42,12 @@
                 alt="imagen de decoracion dorada">
         </div>
         <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
-        <!-- <script>
-            const jsConfetti2 = new JSConfetti()
-            setTimeout(() => {
-                jsConfetti2.addConfetti({
-                    confettiNumber: 150,
-                    confettiColors: [
-                        '#e6b2c6', '#f857b5', '#f79f24', '#ffffff', '#f857b5', '#f79f24',
-                    ],
-                });
-            }, 2500);
-        </script> -->
         <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="Subtitulo_inicio">
             <h2>Catalina</h2>
             <img data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="200"
                 style="margin-top: -110px; margin-left: 30px;" width="300px"
-                src="https://www.pngplay.com/wp-content/uploads/7/Decorative-Line-Gold-Background-PNG-Image.png" alt="">
+                src="https://www.pngplay.com/wp-content/uploads/7/Decorative-Line-Gold-Background-PNG-Image.png"
+                alt="imagen de corona dorada">
         </div>
     </section>
 
@@ -63,11 +55,15 @@
 
     <section data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="Ubicacion">
         <div class="Ubicacion_texto">
-            <h1>Ubicacion: Catamarca 1170</h1> <img style="margin-bottom: 30px;"
+            <h1>Ubicacion:</h1>
+            <h1>Catamarca 1170</h1> <img style="margin-bottom: 30px;"
                 src="https://icongr.am/clarity/map-marker.svg?size=70&color=d4b241" alt="icono de mapa">
         </div>
         <div style="width: 100%;" class="Ubicacion_img">
-            <iframe style="width: 100%; border-top: #b3771d 2px solid; border-bottom: #b3771d 2px solid;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3560.8327177642045!2d-65.2085022!3d-26.8134546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c398796f323%3A0x52d13384a5be9792!2sCatamarca%201170%2C%20T4001KJF%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1687654593489!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe style="width: 100%; border-top: #b3771d 2px solid; border-bottom: #b3771d 2px solid;"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3560.8327177642045!2d-65.2085022!3d-26.8134546!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c398796f323%3A0x52d13384a5be9792!2sCatamarca%201170%2C%20T4001KJF%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1687654593489!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
 
@@ -80,7 +76,7 @@
     <section data-aos="fade-down" data-aos-duration="1000" data-aos-once="true" class="Invitacion">
         <div class="Texto_invitacion">
             <h1>Estas invitado el 22 de julio</h1>
-            <h2>a las 22:30hs a mis XV</h2>
+            <h2>a las 22:00hs a mis XV</h2>
         </div>
     </section>
 
@@ -91,14 +87,14 @@
     <hr class="Salto">
 
     <section id="contador" class="Countdown">
-        <h3 data-aos="fade-right" data-aos-once="true" data-aos-duration="1000" class="Titulo_count">Faltan...</h3>
-        <span data-aos="fade-left" data-aos-once="true" data-aos-duration="1000" class="Tiempo"
+        <h3 data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" class="Titulo_count">Faltan...</h3>
+        <span data-aos="fade-up" data-aos-once="true" data-aos-duration="1000" class="Tiempo"
             id="clock">00:00:00:00</span>
     </section>
 
     <hr class="Salto">
 
-    <section data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="Confirmacion">
+    <section data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="200" class="Confirmacion">
         <img class="Decoracion_top" style="margin: auto;"
             src="https://img.pikbest.com/png-images/20220226/line-art-elegant-design-elements-for-decorative-vector-illustration_6280743.png!bw700"
             alt="decoracion de entrada dorada">
@@ -149,25 +145,18 @@
     <hr class="Salto">
 
     <section class="Dresscode">
-        <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" data>
+        <h1 data-aos="fade-down" data-aos-duration="1000" data-aos-once="true" data>
             Dresscode <br>
             - Elegante Sport -</h1>
-        <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">Por Favor no asistir de color rosa!</h2>
+        <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Por Favor no asistir de color rosa!</h2>
     </section>
 
     <hr class="Salto">
 
     <section data-aos="fade" data-aos-duration="1000" data-aos-once="true" class="Cierre">
-        <img width="300px"
-            src="https://www.pngkit.com/png/full/8-89936_fancy-decorative-line-clipart-decorative-lines-clip-front.png"
-            alt="imagen de rama decorativa">
-        <h1 style="font-size: 50px;     background: linear-gradient(#cc8720, yellow);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;">TE ESPERO!</h1>
-        <img width="300px" style="transform: rotate(180deg);"
-            src="https://www.pngkit.com/png/full/8-89936_fancy-decorative-line-clipart-decorative-lines-clip-front.png"
-            alt="imagen de rama decorativa">
+        <h1>TE ESPERO!</h1>
+        <img src="https://img.pikbest.com/png-images/20220226/line-art-elegant-design-elements-for-decorative-vector-illustration_6280758.png!bw700"
+            alt="">
     </section>
 
 
