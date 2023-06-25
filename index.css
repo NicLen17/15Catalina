@@ -11,16 +11,17 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: #424242;
+    background: #aa9caa;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #e9a846;
+    background-color: lightpink;
     border-radius: 10px;
 }
 
 html {
     text-align: center;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -76,13 +77,15 @@ body {
     border-radius: 50px;
     border: 2px solid #cc8720;
     text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+        sans-serif;
     font-size: 20px;
     background-color: white;
     box-shadow: #d4b241 4px 4px 10px;
     color: gray;
     transition: 0.3s;
     margin: 5px;
+    padding: 5px;
 }
 
 .Botones:hover {
@@ -96,7 +99,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 180px;
 }
 
 .Titulo_inicio {
@@ -106,8 +109,8 @@ body {
     align-content: center;
 }
 
-.Titulo_inicio h1{
-    font-size: 180px;
+.Titulo_inicio h1 {
+    font-size: 200px;
     font-family: "Stalemate", Sans-serif;
     background: linear-gradient(#cc8720, yellow);
     -webkit-background-clip: text;
@@ -122,7 +125,50 @@ body {
     background-clip: text;
     color: transparent;
     font-style: italic;
+    font-size: 170px;
+}
+
+.Ubicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Ubicacion_texto h1 {
+    font-size: 60px;
+    background: linear-gradient(rgba(255, 208, 0, 0.767), #df741d);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.Ubicacion_texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Texto_invitacion h1 {
+    font-family: "Stalemate", Sans-serif;
+    background: linear-gradient(rgba(255, 208, 0, 0.767), #df741d);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-style: italic;
     font-size: 130px;
+    line-height: 1.5;
+}
+
+.Texto_invitacion h2 {
+    font-family: "Stalemate", Sans-serif;
+    background: linear-gradient(#df741d, rgba(255, 208, 0, 0.767));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-style: italic;
+    font-size: 100px;
 }
 
 .Countdown {
@@ -157,19 +203,74 @@ body {
     font-style: italic;
 }
 
+.Decoracion_top {
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+.Decoracion_bottom {
+    transform: rotate(180deg);
+    margin-top: 30px;
+    width: 300px;
+}
+
 .Salto {
     display: flex;
     margin: auto;
     width: 80%;
-    border: #cc8720 solid 2px;
+    border: #eeb35a solid 2px;
     margin-top: 100px;
     margin-bottom: 100px;
-    -webkit-box-shadow: 0px 0px 23px 2px #d4b241;
-    box-shadow: 0px 0px 23px 2px #d4b241;
+    -webkit-box-shadow: 0px 0px 10px 2px #e03596;
+    box-shadow: 0px 0px 10px 10px #e681bb;
     border-radius: 10px;
 }
 
 .Regalo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Regalo_mensaje h1 {
+    background: linear-gradient(#cc8720, rgb(238, 207, 30));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 90px;
+    font-style: italic;
+}
+
+.Regalo_mensaje h3 {
+    background: linear-gradient(#f7ad3d, rgb(207, 204, 8));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.Alias_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.CVU_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Alias_container p {
+    margin: 10px 10px 0px 0px;
+}
+
+.CVU_container p {
+    margin: 10px 10px 0px 0px;
 }
 
 .Confirmacion {
@@ -179,16 +280,48 @@ body {
 }
 
 .Confirmacion h1 {
-}
-
-.Confirmacion span {
+    background: linear-gradient(#cc8720, rgb(238, 207, 30));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 90px;
 }
 
 .Confirmacion h2 {
+    background: linear-gradient(#cc8720, rgb(238, 207, 30));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
 }
 
-.Confirmacion button {
+.Cierre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
 }
 
-.Confirmacion button:hover {
+.Dresscode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Dresscode h1 {
+    background: linear-gradient(#cc8720, rgb(238, 207, 30));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 90px;
+}
+
+.Dresscode h2 {
+    background: linear-gradient(#c457e6, rgb(255, 188, 63));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
 }
