@@ -340,127 +340,127 @@ body {
     font-size: 50px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 550px) {
     .Titulo_inicio img {
         object-fit: contain;
         width: 60px !important;
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 550px) {
     .Titulo_inicio h1 {
         font-size: 100px;
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 550px) {
     .Subtitulo_inicio h2 {
         font-size: 80px;
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 550px) {
     .Subtitulo_inicio img {
         display: none;
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 550px) {
     .Ubicacion_texto {
         flex-direction: column;
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 550px) {
     .Ubicacion_texto h1 {
         font-size: 50px;
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 550px) {
     .Texto_invitacion h1 {
         font-size: 55px;
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 550px) {
     .Texto_invitacion h2 {
         font-size: 50px;
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 550px) {
     .Countdown {
         margin-top: -100px;
         margin-bottom: -100px;
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 550px) {
     .Confirmacion {
         margin-top: -50px;
         margin-bottom: -50px;
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 550px) {
     .Confirmacion h1 {
         font-size: 45px;
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 550px) {
     .Confirmacion h2 {
         font-size: 35px;
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 550px) {
     .Regalo_mensaje h1 {
         font-size: 35px;
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 550px) {
     .Regalo_mensaje h3 {
         font-size: 30px;
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 550px) {
     .Alias_container,
     .CVU_container {
         flex-direction: column;
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 550px) {
     .Alias_container p,
     .CVU_container p {
         margin: 10px 0px 0px 0px;
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 550px) {
     .Dresscode h1 {
         font-size: 60px;
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 550px) {
     .Dresscode h2 {
         font-size: 30px;
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 550px) {
     .Cierre h1 {
         font-size: 50px;
     }
 }
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 550px) {
     .Cierre img {
         width: 200px;
     }
